@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    display: block;
+}
+
+.other-info {
+    display: flex;
+    align-items: center;
+    color: var(--color-primary_grey);
+    background: var(--color-bg-header);
+    justify-content: center;
+    padding: 3px 0;
+}
