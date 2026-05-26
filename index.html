@@ -1,80 +1,85 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./styles/reset.css" />
-        <link rel="stylesheet" href="./styles/styles.css" />
-        <link rel="stylesheet" href="./styles/header.css" />
-        <link rel="stylesheet" href="./styles/blocks.css" />
-        <link rel="stylesheet" href="./styles/footer.css" />
-        <link rel="stylesheet" href="./styles/FAQ.css" />
-        <title>OOO "ВиреонСофт"</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВиреонСофт — Разработка ПО</title>
+    
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/hero.css">
+    <link rel="stylesheet" href="./styles/services.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <img src="./assets/logo.png" alt="ВиреонСофт" class="header__logo">
+            <h1 class="header__title">ВиреонСофт</h1>
+        </div>
+    </header>
 
-    <body>
-        <header class="header">
-            <img src="./assets/logo.png" alt="logo" width="44px" height="44px"/>
-            <h1 class="header__title">ООО "ВиреонСофт"</h1>
-        </header>
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero__content">
+                <h2 class="hero__title">ООО «ВиреонСофт»</h2>
+                <p class="hero__subtitle">Профессиональная разработка программного обеспечения</p>
+            </div>
+        </section>
 
-        <main class="main">
-            <section class="main-header">
-                <h2 class="main-header__title">ООО "ВиреонСофт"</h2>
-            </section>
-
-            <section class="blocks">
-                <article class="block">
-                    <div class="blocks__wrapper block__wrapper_one"></div>
-                    <div class="block__container">
-                        <div>
-                            <h4 class="block__title">Создание сайтов</h4>
-                            <p class="block__description">Создание сайтов от чистого html и css до react, с поддержкой backend, JS</p>
-                        </div>
+        <!-- Услуги -->
+        <section class="services">
+            <h3 class="section-title">Наши услуги</h3>
+            <div class="services-grid">
+                
+                <div class="service-card">
+                    <div class="service-card__img" style="background-image: url('/assets/sozdanie-saytov.webp')"></div>
+                    <div class="service-card__content">
+                        <h4>Создание сайтов</h4>
+                        <p>От лендингов до сложных веб-приложений. Чистый код, современные технологии, адаптивность.</p>
                     </div>
-                </article>
+                </div>
 
-                <article class="block">
-                    <div class="blocks__wrapper block__wrapper_two"></div>
-                    <div class="block__container">
-                        <div>
-                            <h4 class="block__title">Создание игр</h4>
-                            <p class="block__description">Создание игр от таких движков как construct 2/3 до UNITY и Anreal Engine</p>
-                        </div>
+                <div class="service-card">
+                    <div class="service-card__img" style="background-image: url('/assets/sozdanie-igr.webp')"></div>
+                    <div class="service-card__content">
+                        <h4>Разработка игр</h4>
+                        <p>Unity, Unreal Engine, Godot. 2D и 3D проекты любого уровня сложности.</p>
                     </div>
-                </article>
+                </div>
 
-                <article class="block">
-                    <div class="blocks__wrapper block__wrapper_three"></div>
-                    <div class="block__container">
-                        <div>
-                            <h4 class="block__title">Создание серверов</h4>
-                            <p class="block__description">Создание серверов для игр, хостинга, облака, Proxy, VPN </p>
-                        </div>
+                <div class="service-card">
+                    <div class="service-card__img" style="background-image: url('/assets/sozdanie-serverov.webp')"></div>
+                    <div class="service-card__content">
+                        <h4>Серверные решения</h4>
+                        <p>Игровые серверы, облачные решения, VPN, Proxy, хостинг и DevOps.</p>
                     </div>
-                </article>
+                </div>
 
-                <article class="block">
-                    <div class="blocks__wrapper block__wrapper_four"></div>
-                    <div class="block__container">
-                        <div>
-                            <h4 class="block__title">Создание приложений</h4>
-                            <p class="block__description">Создание приложений для Android, Ifone, Windows, MacOS, Linux под любые нужды</p>
-                        </div>
+                <div class="service-card">
+                    <div class="service-card__img" style="background-image: url('/assets/sozdanie-prilozeniy.webp')"></div>
+                    <div class="service-card__content">
+                        <h4>Мобильные приложения</h4>
+                        <p>Разработка под iOS и Android. Кроссплатформенные решения (Flutter/React Native).</p>
                     </div>
-                </article>
-            </section>
+                </div>
+            </div>
+        </section>
+    </main>
 
-            <section class="FAQ">
-                <a href="#">Политика конфедициальности</a>
-                <a href="#">Что нового?</a>
-            </section>
-        </main>
-
-        <footer class="footer">
-            <section class="other-info">
-                <p>2026 © ООО "ВиреонСофт"</p>
-            </section>
-        </footer>
-    </body>
+    <footer class="footer">
+        <div class="footer__links">
+            <a href="#">Политика конфиденциальности</a>
+            <a href="#">Что нового?</a>
+        </div>
+        <div class="footer__copyright">
+            © 2026 ООО «ВиреонСофт». Все права защищены.
+        </div>
+    </footer>
+</body>
 </html>

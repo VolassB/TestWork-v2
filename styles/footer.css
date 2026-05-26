@@ -1,14 +1,26 @@
 .footer {
-    display: flex;
-    justify-content: center;
-    display: block;
+    background: #0A2540;
+    color: #94A3B8;
+    padding: 50px 5% 30px;
+    text-align: center;
 }
 
-.other-info {
-    display: flex;
-    align-items: center;
-    color: var(--color-primary_grey);
-    background: var(--color-bg-header);
-    justify-content: center;
-    padding: 3px 0;
+.footer__links {
+    margin-bottom: 30px;
+}
+
+.footer__links a {
+    color: #94A3B8;
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+.footer__links a:hover {
+    color: #00D4FF;
+}
+
+.footer__copyright {
+    border-top: 1px solid #1E3A5F;
+    padding-top: 20px;
+    font-size: 0.95rem;
 }

@@ -1,14 +1,21 @@
 :root {
-    --color-primary: #7295fe;
-    --color-primary_grey: #b4b6fb;
-    --color-bg: #8ee6ea;
-    --color-bg-header: #0040ff;
-    --font-family-title: 'Cormorant';
-    --font-family-desc: 'Open Sans';
+    --primary: #0052FF;
+    --primary-light: #4A9FFF;
+    --accent: #00D4FF;
+    --bg: #F0F8FF;
+    --text: #0A2540;
+    --text-light: #64748B;
 }
 
-section {
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
 }
